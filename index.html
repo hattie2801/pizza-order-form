@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style> table {font-family: Arial, Helvetica, sans-serif; border-collapse: collapse; width: 150;} 
+    td, th{border: 3px solid #ddd; text-align: left;padding: 10px;}
+    tr:nth-child(even) {background-color: #ddd;}</style>
   </head>
   <body>
     <header><h1>Everthing Pizza Palace</h1></header><br>
@@ -38,7 +41,53 @@
         <label for="toppings7">Bell peppers</label><br><br>
         <p><label for="delivery"> Delivery Instructions:</label></p>
         <textarea id="delivery" name="deliver" rows="5" cols="100"></textarea><br>
-        <input type="button" value="Submit">
+        <input type="button" value="Submit"><br><br>
+
+        <h2>Orders in Que</h2>
+        <table><tr>
+            <th>Name</th>
+            <th>Size</th>
+            <th>Toppings</th>
+            <th>Special Instructions</th>
+            <th>Order Status</th>
+        </tr>
+    <tr>
+        <td>Andy Grant</td>
+        <td>Large</td>
+        <td>Pepperoni</td>
+        <td>None</td>
+        <td>Ready in 10 min.</td>
+    </tr>
+    <td>Marva Sue</td>
+    <td>Large</td>
+    <td>Sausage</td>
+    <td>Well Done</td>
+    <td>Ready in 15 min.</td>
+</tr>
+    <td>Peal Juice</td>
+    <td>Small</td>
+    <td>Ham and Pineapples</td>
+    <td>Light Sauce</td>
+    <td>Ready in 25 min.</td>
+    </tr>
+    <td>Marii J.</td>
+    <td>Small</td>
+    <td>Cheese</td>
+    <td>None</td>
+    <td>Ready</td>
+</tr>
+    <td>Melinda James</td>
+    <td>2 Large</td>
+    <td>Pepperoni</td>
+     <td>Extra Sauce</td>
+    <td>Ready</td>
+    </tr>
+    <td>Carla S.</td>
+    <td>Medium</td>
+    <td>Ham</td>
+    <td>None</td>
+    <td>Ready</td>
+</tr></table>
 
   </body>
 </html>
