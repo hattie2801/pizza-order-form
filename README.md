@@ -14,3 +14,14 @@ An online web page that allows for customers to order pizza with their favorite 
 - Submit button 
 
 ## Tables of Sample Orders
+
+- Name
+- Size
+- Toppings
+- Special Instructions
+
+## Technologes Used
+
+- HTML
+- GIT
+- GITHUB
